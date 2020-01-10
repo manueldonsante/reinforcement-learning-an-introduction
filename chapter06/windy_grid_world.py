@@ -123,6 +123,8 @@ def figure_6_3():
                 optimal_policy[-1].append('L')
             elif bestAction == ACTION_RIGHT:
                 optimal_policy[-1].append('R')
+            print(optimal_policy)
+            print('')
     print('Optimal policy is:')
     for row in optimal_policy:
         print(row)
